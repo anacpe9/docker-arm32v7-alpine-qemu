@@ -8,6 +8,11 @@ before_script:
 
 hello world CI/CD job:
   stage: welcome
+  tags:
+    - aarch64
+    - alpine
+  services:
+    - docker:dind
   script:
     - cat /etc/alpine-release
     - echo 'Hello gitlab CI/CD, MeetingServer - 2nd'
