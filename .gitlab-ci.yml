@@ -4,7 +4,6 @@ stages:
   - welcome
 
 before_script:
-  - docker run --rm --privileged multiarch/qemu-user-static:register --reset
   - uname -a
 
 hello world CI/CD job:
