@@ -1,4 +1,4 @@
-# Alpine + QEMU + ARM64 (aarch64)
+# Alpine + QEMU + ARMHF (arm32v7)
 
 ![Docker Build Status](https://img.shields.io/docker/build/anacha/arm32v7-alpine-qemu.svg)
 
