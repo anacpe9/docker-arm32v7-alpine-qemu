@@ -14,5 +14,7 @@ hello world CI/CD job:
   services:
     - docker:dind
   script:
-    - cat /etc/alpine-release
-    - echo 'Hello gitlab CI/CD, MeetingServer - 2nd'
+    >- 
+      cat /etc/alpine-release &&
+      apk --print-arch &&
+      uname -a
