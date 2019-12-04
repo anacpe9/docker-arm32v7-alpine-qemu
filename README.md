@@ -30,7 +30,7 @@ for all supported processors.
 ```text
 +-- arm32v7/alpine:3.10
     |
-    +-- qemu-arm-static:4.1.0-1
+    +-- qemu-arm-static:4.1.1-1
 ```
 
 | libray          | base-1 image          |
