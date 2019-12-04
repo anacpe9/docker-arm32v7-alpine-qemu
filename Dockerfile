@@ -1,5 +1,5 @@
 
-FROM arm32v7/alpine:3.10.3 AS BUILD-ENV
+FROM alpine:3.10.3 AS BUILD-ENV
 LABEL maintainer "Anucha Nualsi <ana.cpe9@gmail.com>"
 
 ADD qemu-arm-static /usr/bin
