@@ -28,11 +28,11 @@ for all supported processors.
 ## Layers and Dependencies graph
 
 ```text
-+-- arm32v7/alpine:3.10
++-- arm32v7/alpine:3.11
     |
-    +-- qemu-arm-static:4.1.1-1
+    +-- qemu-arm-static:4.2.0-2
 ```
 
 | libray          | base-1 image          |
 | --------------- | --------------------- |
-| qemu-arm-static | arm32v7/alpine:3.10   |
+| qemu-arm-static | arm32v7/alpine:3.11   |
